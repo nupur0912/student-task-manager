@@ -86,3 +86,8 @@ function deleteTask(id) {
 
     displayTasks();
 }
+
+function clearTasks() {
+    tasks = [];
+    displayTasks();
+}
