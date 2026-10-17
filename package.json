@@ -7,5 +7,8 @@
     "start": "node app.js",
     "build": "node build.js",
     "test": "node test.js"
+  },
+  "dependencies": {
+    "prom-client": "^15.1.3"
   }
 }
